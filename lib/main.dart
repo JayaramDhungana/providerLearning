@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:provider_pr/counter_screen.dart';
+import 'package:provider_pr/practiceGarauHaita/pr_home_screen.dart';
+import 'package:provider_pr/screens/home_screen.dart';
 
 void main() {
   //ProviderScope is a wrapper provided by Riverpod
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CounterScreen(),
+      home: PrHomeScreen(),
     );
   }
 }
